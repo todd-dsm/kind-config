@@ -16,6 +16,10 @@ To simplify things, I add a softlink to the system; example:
 
 kind-cluster ~/code/kind-config/kube-v1-18.yaml
 
+## When you're done
+
+kind delete cluster
+
 [kind-config]:https://github.com/todd-dsm/kind-config/blob/main/kube-v1-18.yaml
 [releases]:https://github.com/kubernetes-sigs/kind/releases
 [config docs]:https://kind.sigs.k8s.io/docs/user/quick-start/#configuring-your-kind-cluster

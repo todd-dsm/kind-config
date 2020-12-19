@@ -8,7 +8,7 @@ Create a [kind-config] based on the available [releases]; the [config docs].
 
 ## Convenience
 
-To simplify things, I add a softlink to the system:
+To simplify things, I add a softlink to the system; example:
 
 `ln -s ~/code/kind-config/kind-cluster.sh /usr/local/bin/kind-cluster`
 
